@@ -1,4 +1,4 @@
-﻿namespace Core.Models
+﻿namespace HelloWebApi.Models
 {
     public class User
     {
