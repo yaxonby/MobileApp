@@ -38,12 +38,12 @@
 // }
 
 
-
 import React from 'react';
-import { AppLoading } from 'expo';
-import { Container, Header, Content, Form, Item, Input } from 'native-base';
+import {AppLoading} from 'expo';
+import {Container, Header, Content, Form, Item, Input, List, ListItem, Text} from 'native-base';
 import * as Font from 'expo-font';
-import { Ionicons } from '@expo/vector-icons';
+import {Ionicons} from '@expo/vector-icons';
+import {FlatList} from "react-native-web";
 
 export default class App extends React.Component {
     constructor(props) {
@@ -51,7 +51,13 @@ export default class App extends React.Component {
         this.state = {
             isReady: false,
         };
+        this.setModalVisible = this.setModalVisible.bind(this);
     }
+
+
+    setModalVisible(event) {
+        console.warn('click', event);
+}
 
     async componentDidMount() {
         await Font.loadAsync({
@@ -59,27 +65,47 @@ export default class App extends React.Component {
             Roboto_medium: require('native-base/Fonts/Roboto_medium.ttf'),
             ...Ionicons.font,
         });
-        this.setState({ isReady: true });
+        this.setState({isReady: true});
     }
 
     render() {
-        
+        let users = [
+            {key: 'Devin'},
+            {key: 'Dan'},
+            {key: 'Dominic'},
+            {key: 'Jackson'},
+            {key: 'James'},
+            {key: 'Joel'},
+            {key: 'John'},
+            {key: 'Jillian'},
+            {key: 'Jimmy'},
+        ];
+
+        const inputAccessoryViewID1 = "uniqueID1";
+        const inputAccessoryViewID2 = "uniqueID2";
+
         if (!this.state.isReady) {
-            return <AppLoading />;
+            return <AppLoading/>;
         }
 
         return (
             <Container>
-                <Header />
+                <Header/>
                 <Content>
                     <Form>
                         <Item>
-                            <Input placeholder="Username" />
+                            <Input placeholder="Username"/>
                         </Item>
                         <Item last>
-                            <Input placeholder="Password" />
+                            <Input placeholder="Password"/>
                         </Item>
                     </Form>
+
+                    <List dataArray={users} renderRow={ item =>
+                        <ListItem button onPress={() => this.setModalVisible(true, item)}>
+                        <Text>{item.key}</Text>
+                        </ListItem>
+                        } />
                 </Content>
             </Container>
         );
