@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
@@ -13,74 +14,77 @@ namespace HelloWebApi.Controllers
         public PostController(UsersContext context)
         {
             this.db = context;
-            if (!db.Users.Any())
+            if (!db.Posts.Any())
             {
-                db.Users.Add(new User { Name = "Tom", Age = 26 });
-                db.Users.Add(new User { Name = "Alice", Age = 31 });
+               db.Posts.Add(new Post {
+                   Header = "Post Header", 
+                   Body = "Post Body",
+                   CreatedDate = new DateTime(),
+               });
                 db.SaveChanges();
             }
         }
  
         [HttpGet]
-        public IEnumerable<User> Get()
+        public IEnumerable<Post> Get()
         {
-            return db.Users.ToList();
+            return db.Posts.ToList();
         }
  
-        // GET api/users/5
+        // GET api/posts/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            User user = db.Users.FirstOrDefault(x => x.Id == id);
-            if (user == null)
+            Post post = db.Posts.FirstOrDefault(x => x.PostId == id);
+            if (post == null)
                 return NotFound();
-            return new ObjectResult(user);
+            return new ObjectResult(post);
         }
  
-        // POST api/users
+        // POST api/posts
         [HttpPost]
-        public IActionResult Post([FromBody]User user)
+        public IActionResult Post([FromBody]Post post)
         {
-            if (user==null)
+            if (post==null)
             {
                 return BadRequest();
             }
  
-            db.Users.Add(user);
+            db.Posts.Add(post);
             db.SaveChanges();
-            return Ok(user);
+            return Ok(post);
         }
  
         // PUT api/users/
         [HttpPut]
-        public IActionResult Put([FromBody]User user)
+        public IActionResult Put([FromBody]Post post)
         {
-            if (user==null)
+            if (post==null)
             {
                 return BadRequest();
             }
-            if (!db.Users.Any(x => x.Id == user.Id))
+            if (!db.Posts.Any(x => x.PostId == post.PostId))
             {
                 return NotFound();
             }
  
-            db.Update(user);
+            db.Update(post);
             db.SaveChanges();
-            return Ok(user);
+            return Ok(post);
         }
  
-        // DELETE api/users/5
+        // DELETE api/posts/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            User user = db.Users.FirstOrDefault(x => x.Id == id);
-            if(user==null)
+            Post post = db.Posts.FirstOrDefault(x => x.PostId == id);
+            if(post==null)
             {
                 return NotFound();
             }
-            db.Users.Remove(user);
+            db.Posts.Remove(post);
             db.SaveChanges();
-            return Ok(user);
+            return Ok(post);
         }
     }
 }
