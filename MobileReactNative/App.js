@@ -30,11 +30,13 @@ export default class App extends React.Component {
 
 
     setModalVisible(event) {
-        console.warn('click', event);
+        
+       // console.warn('click', event);
+        
     }
 
     async componentDidMount() {
-       // console.warn('api', api);
+       console.warn('api');
 
 
         const axiosApi =  {
