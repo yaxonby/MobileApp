@@ -11,6 +11,10 @@ export class HomeScreen extends React.Component {
                     onPress={() => this.props.navigation.push('Tasks')}
                 />
                 <Button
+                    title="Go to Counter"
+                    onPress={() => this.props.navigation.navigate('Counter')}
+                />
+                <Button
                     title="Go to Home"
                     onPress={() => this.props.navigation.navigate('Home')}
                 />

@@ -5,6 +5,12 @@
       <e p="MobileReactNative\node_modules\@babel\core" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\@expo\vector-icons" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\@react-native-community\masked-view" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\@redux-saga\core" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\@redux-saga\deferred" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\@redux-saga\delay-p" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\@redux-saga\is" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\@redux-saga\symbols" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\@redux-saga\types" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\@types" t="IncludeRecursive">
         <e p="istanbul-lib-coverage" t="IncludeRecursive" />
         <e p="istanbul-lib-report" t="IncludeRecursive" />
@@ -44,6 +50,12 @@
       <e p="MobileReactNative\node_modules\react-native-web" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\react-navigation" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\react-navigation-stack" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\react-redux" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\redux" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\redux-logger" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\redux-saga" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\rxjs" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\symbol-observable" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\unimodules-permissions-interface" t="IncludeRecursive" />
     </e>
     <e p="C:\Users\yaxon\.Rider2019.2\system\extResources" t="IncludeRecursive" />
