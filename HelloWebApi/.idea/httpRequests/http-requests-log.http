@@ -1,0 +1,14 @@
+﻿POST https://localhost:44300/api/users
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET https://localhost:44300/api/users
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-09T114955.200.json
+
+###
+

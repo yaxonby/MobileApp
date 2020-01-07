@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Projects\ReactNative\MobileApp\HelloWebApi" t="IncludeRecursive">
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="PostController.cs" t="Include" />
+        <e p="UsersController.cs" t="Include" />
+      </e>
+      <e p="HelloWebApi.csproj" t="IncludeRecursive" />
+      <e p="HelloWebApi.sln" t="IncludeFlat" />
+      <e p="Migrations" t="Include">
+        <e p="20191107134053_InitialCreate.cs" t="Include" />
+        <e p="20191107134053_InitialCreate.Designer.cs" t="Include" />
+        <e p="20191110092628_PostComment.cs" t="Include" />
+        <e p="20191110092628_PostComment.Designer.cs" t="Include" />
+        <e p="UsersContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Comment.cs" t="Include" />
+        <e p="Post.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+        <e p="UsersContext.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.0" t="Include">
+            <e p="HelloWebApi.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+    </e>
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@expo\vector-icons" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@types" t="IncludeRecursive">
+      <e p="lodash" t="IncludeRecursive" />
+    </e>
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@unimodules\core" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@unimodules\react-native-adapter" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\babel-preset-expo" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\chalk" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\compare-versions" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-asset" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-constants" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-file-system" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-font" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-keep-awake" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-linear-gradient" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-location" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-permissions" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-sqlite" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-web-browser" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\native-base" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\nullthrows" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-dom" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-iphone-x-helper" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-keyboard-aware-scroll-view" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-unimodules" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-vector-icons" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-view-shot" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-web" t="IncludeRecursive" />
+    <e p="C:\Users\yaxon\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\yaxon\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_HelloWebApi.1836326184.00" t="ExcludeRecursive" />
+  </component>
+</project>
