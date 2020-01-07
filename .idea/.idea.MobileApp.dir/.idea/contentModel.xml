@@ -4,6 +4,7 @@
     <e p="C:\Projects\ReactNative\MobileApp" t="IncludeFlat">
       <e p="MobileReactNative\node_modules\@babel\core" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\@expo\vector-icons" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\@react-native-community\masked-view" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\@types" t="IncludeRecursive">
         <e p="istanbul-lib-coverage" t="IncludeRecursive" />
         <e p="istanbul-lib-report" t="IncludeRecursive" />
@@ -26,6 +27,7 @@
       <e p="MobileReactNative\node_modules\expo-permissions" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\expo-sqlite" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\expo-web-browser" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\link" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\native-base" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\nullthrows" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\react" t="IncludeRecursive" />
@@ -35,10 +37,13 @@
       <e p="MobileReactNative\node_modules\react-native-iphone-x-helper" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\react-native-keyboard-aware-scroll-view" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\react-native-reanimated" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\react-native-safe-area-context" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\react-native-safe-area-view" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\react-native-screens" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\react-native-view-shot" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\react-native-web" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\react-navigation" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\react-navigation-stack" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\unimodules-permissions-interface" t="IncludeRecursive" />
     </e>
     <e p="C:\Users\yaxon\.Rider2019.2\system\extResources" t="IncludeRecursive" />
