@@ -1,32 +1,32 @@
 ﻿// Imports: Dependencies
-import React, { Component } from 'react';
-import { Dimensions, SafeAreaView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import React, {Component} from 'react';
+import {Dimensions, SafeAreaView, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {connect} from 'react-redux';
 
 // Screen Dimensions
-const { height, width } = Dimensions.get('window');
+const {height, width} = Dimensions.get('window');
 
 // Screen: Counter
 class Counter extends Component {
-   
+
     render() {
         return (
-                <SafeAreaView style={styles.container}>
-                    <Text style={styles.counterTitle}>Counter</Text>
+            <SafeAreaView style={styles.container}>
+                <Text style={styles.counterTitle}>Counter</Text>
 
-                    <View style={styles.counterContainer}>
-                        <TouchableOpacity onPress={this.props.reduxIncreaseCounter}>
-                            <Text style={styles.buttonText}>+</Text>
-                        </TouchableOpacity>
+                <View style={styles.counterContainer}>
+                    <TouchableOpacity onPress={this.props.reduxIncreaseCounter}>
+                        <Text style={styles.buttonText}>+</Text>
+                    </TouchableOpacity>
 
-                        <Text style={styles.counterText}>{this.props.counter}</Text>
+                    <Text style={styles.counterText}>{this.props.counter}</Text>
 
-                        <TouchableOpacity onPress={this.props.reduxDecreaseCounter}>
-                            <Text style={styles.buttonText}>-</Text>
-                        </TouchableOpacity>
-                        
-                    </View>
-                </SafeAreaView>
+                    <TouchableOpacity onPress={this.props.reduxDecreaseCounter}>
+                        <Text style={styles.buttonText}>-</Text>
+                    </TouchableOpacity>
+
+                </View>
+            </SafeAreaView>
         )
     }
 }
@@ -83,12 +83,12 @@ const mapDispatchToProps = (dispatch) => {
     // Action
     return {
         // Increase Counter
-        reduxIncreaseCounter: () =>  dispatch({
+        reduxIncreaseCounter: () => dispatch({
             type: 'INCREASE_COUNTER',
             value: 1,
         }),
         // Decrease Counter
-        reduxDecreaseCounter: () =>  dispatch({
+        reduxDecreaseCounter: () => dispatch({
             type: 'DECREASE_COUNTER',
             value: 1,
         }),
