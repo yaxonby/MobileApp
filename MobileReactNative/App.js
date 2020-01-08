@@ -6,7 +6,8 @@ import {TasksScreen} from "./screen/TasksScreen";
 import {HomeScreen} from "./screen/HomeSreen";
 import { Provider } from 'react-redux';
 import { store } from './store/store';
-import {Counter} from "./screen/CounterScreen";
+import Counter from "./screen/Counter";
+
 
 const AppNavigator = createStackNavigator(
     {

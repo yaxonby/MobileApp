@@ -1,6 +1,6 @@
 // Initial State
 const initialState = {
-  counter: 1,
+  counter: 0,
 };
 
 // Redux: Counter Reducer

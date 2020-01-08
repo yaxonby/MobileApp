@@ -7,7 +7,8 @@ import {connect} from 'react-redux';
 const { height, width } = Dimensions.get('window');
 
 // Screen: Counter
-export class Counter extends Component {
+class Counter extends Component {
+   
     render() {
         return (
                 <SafeAreaView style={styles.container}>
@@ -23,8 +24,7 @@ export class Counter extends Component {
                         <TouchableOpacity onPress={this.props.reduxDecreaseCounter}>
                             <Text style={styles.buttonText}>-</Text>
                         </TouchableOpacity>
-
-                        <Text style={styles.counterText}>{this.props.counter}</Text>
+                        
                     </View>
                 </SafeAreaView>
         )
@@ -83,14 +83,12 @@ const mapDispatchToProps = (dispatch) => {
     // Action
     return {
         // Increase Counter
-        reduxIncreaseCounter: () => {
-            console.warn("this.props", this.props); 
-            return dispatch({
+        reduxIncreaseCounter: () =>  dispatch({
             type: 'INCREASE_COUNTER',
             value: 1,
-        })},
+        }),
         // Decrease Counter
-        reduxDecreaseCounter: () => dispatch({
+        reduxDecreaseCounter: () =>  dispatch({
             type: 'DECREASE_COUNTER',
             value: 1,
         }),
