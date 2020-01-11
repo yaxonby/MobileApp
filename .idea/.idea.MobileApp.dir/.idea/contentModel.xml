@@ -14,13 +14,25 @@
       <e p="MobileReactNative\node_modules\@types" t="IncludeRecursive">
         <e p="istanbul-lib-coverage" t="IncludeRecursive" />
         <e p="istanbul-lib-report" t="IncludeRecursive" />
+        <e p="jest" t="IncludeRecursive" />
         <e p="lodash" t="IncludeRecursive" />
+        <e p="prop-types" t="IncludeRecursive" />
+        <e p="react" t="IncludeRecursive" />
+        <e p="react-native" t="IncludeRecursive" />
+        <e p="react-test-renderer" t="IncludeRecursive" />
         <e p="yargs-parser" t="IncludeRecursive" />
       </e>
       <e p="MobileReactNative\node_modules\@unimodules\core" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\@unimodules\react-native-adapter" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\babel-eslint" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\babel-preset-expo" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\chalk" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\compare-versions" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\csstype" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\diff-sequences" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\eslint" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\eslint-plugin-react" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\eslint-plugin-react-native" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\expo" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\expo-asset" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\expo-constants" t="IncludeRecursive" />
@@ -33,6 +45,8 @@
       <e p="MobileReactNative\node_modules\expo-permissions" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\expo-sqlite" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\expo-web-browser" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\jest-diff" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\jest-get-type" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\link" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\native-base" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\nullthrows" t="IncludeRecursive" />
@@ -56,6 +70,7 @@
       <e p="MobileReactNative\node_modules\redux-saga" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\rxjs" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\symbol-observable" t="IncludeRecursive" />
+      <e p="MobileReactNative\node_modules\tslib" t="IncludeRecursive" />
       <e p="MobileReactNative\node_modules\unimodules-permissions-interface" t="IncludeRecursive" />
     </e>
     <e p="C:\Users\yaxon\.Rider2019.2\system\extResources" t="IncludeRecursive" />

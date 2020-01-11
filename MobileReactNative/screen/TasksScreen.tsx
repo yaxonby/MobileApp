@@ -6,7 +6,7 @@ export class TasksScreen extends React.Component {
         return (
             <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
                 <Text>Tasks Screen</Text>
-                <br/>
+              
 
                 <Button
                     title="Go to Home"

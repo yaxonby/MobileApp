@@ -6,12 +6,12 @@ export class HomeScreen extends React.Component {
         return (
             <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
                 <Text>Home Screen</Text>
-                <br/>
+               
                 <Button
                     title="Go to Tasks"
                     onPress={() => this.props.navigation.push('Tasks')}
                 />
-                <br/>
+               
                 <Button
                     title="Go to Counter"
                     onPress={() => this.props.navigation.navigate('Counter')}
