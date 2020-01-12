@@ -1,7 +1,23 @@
 ﻿import React from 'react';
-import {StyleSheet, Button, View, Text} from 'react-native';
+import {StyleSheet, Button, View, Text, Dimensions} from 'react-native';
 import {Container, Header, Content, List, ListItem, Separator} from 'native-base';
 import entityWords from '../listWords.js'
+
+const styles = StyleSheet.create({
+    view: {
+        flex: 1, 
+        alignItems: 'center', 
+        justifyContent: 'center'
+    },
+    bigBlue: {
+        color: 'blue',
+        fontWeight: 'bold',
+        fontSize: 30,
+    },
+    red: {
+        color: 'red',
+    },
+});
 
 export class ListWordsScreen extends React.Component {
 
@@ -13,15 +29,18 @@ export class ListWordsScreen extends React.Component {
         const {commonWords} = entityWords;
 
         return (
-            <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <View style={styles.view}>
 
                 <Container>
                     <Header/>
                     <Content>
 
-                        <List dataArray={commonWords}
+                        <List style={{width: Dimensions.get('window').width}}
+                              dataArray={commonWords}
+                              keyExtractor={(item, index) => index.toString()}
                               renderRow={(item, index) =>
-                                  <ListItem button onPress={() => this.setModalVisible(true, item)}>
+                                  <ListItem button
+                                            onPress={() => this.setModalVisible(true, item)}>
                                       <Text>
                                           {item}
                                       </Text>
