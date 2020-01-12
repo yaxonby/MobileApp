@@ -1,1 +1,5 @@
-﻿export 
+﻿export {default} from './CounterScreen'
+export * from './HomeScreen'
+export * from './TasksScreen'
+export * from './WordsScreen'
+export * from './ListWordsScreen'

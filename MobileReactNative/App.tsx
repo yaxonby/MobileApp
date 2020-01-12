@@ -2,18 +2,19 @@ import React from 'react';
 import {StyleSheet} from 'react-native';
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
-import {TasksScreen} from "./screen/TasksScreen";
-import {HomeScreen} from "./screen/HomeSreen";
 import {Provider} from 'react-redux';
 import {store} from './store/store';
-import Counter from "./screen/CounterScreen";
+import CounterScreen, {HomeScreen, ListWordsScreen, TasksScreen, WordsScreen} from "./screen";
+
 
 
 const AppNavigator = createStackNavigator(
     {
         Home: HomeScreen,
         Tasks: TasksScreen,
-        Counter: Counter,
+        Counter: CounterScreen,
+        Words: WordsScreen,
+        ListWords: ListWordsScreen,
     },
     {
         initialRouteName: 'Home',

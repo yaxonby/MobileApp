@@ -6,6 +6,16 @@ export class HomeScreen extends React.Component {
         return (
             <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
                 <Text>Home Screen</Text>
+
+                <Button
+                    title="Go to ListWords"
+                    onPress={() => this.props.navigation.push('ListWords')}
+                />
+
+                <Button
+                    title="Go to Words"
+                    onPress={() => this.props.navigation.push('Words')}
+                />
                
                 <Button
                     title="Go to Tasks"

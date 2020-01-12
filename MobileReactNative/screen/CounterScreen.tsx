@@ -7,7 +7,7 @@ import {connect} from 'react-redux';
 const {height, width} = Dimensions.get('window');
 
 // Screen: Counter
-class Counter extends Component {
+class CounterScreen extends Component {
 
     render() {
         return (
@@ -96,4 +96,4 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 // Exports
-export default connect(mapStateToProps, mapDispatchToProps)(Counter);
+export default  connect(mapStateToProps, mapDispatchToProps)(CounterScreen);
