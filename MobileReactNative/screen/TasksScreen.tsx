@@ -2,6 +2,17 @@
 import {StyleSheet, Button, Text, View, Image, FlatList} from 'react-native';
 import entityWords from '../listWords.js'
 
+function Item({ title }) {
+    return (
+        <View >
+            <Button
+                title={title}
+                onPress={() => {console.warn("title", title)}}
+            />
+        </View>
+    );
+}
+
 export class TasksScreen extends React.Component {
     render() {
         const listWords: string[] = entityWords.commonWords;
@@ -29,9 +40,7 @@ export class TasksScreen extends React.Component {
 
                 <FlatList
                     data={randomWords}
-                    renderItem={({ item }) => <Text>
-                            {item}
-                        </Text>
+                    renderItem={ ({ item }) => <Item title={item} />
                     }
                     keyExtractor={(item, index) => index.toString()}
 
