@@ -19,9 +19,6 @@ web-report/
 # macOS
 .DS_Store
 
-
-
-
 .git
 .idea
 ./vs

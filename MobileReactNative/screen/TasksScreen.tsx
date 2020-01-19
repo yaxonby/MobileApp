@@ -1,15 +1,29 @@
 ﻿import React from 'react';
-import {StyleSheet, Button, Text, View, Image, FlatList} from 'react-native';
+import {StyleSheet, Button, Text, View, Image, FlatList, TouchableOpacity} from 'react-native';
 import entityWords from '../listWords.js'
+
+const styles = StyleSheet.create({
+    button: {
+        backgroundColor: "blue",
+        padding: 20,
+        borderRadius: 5,
+        width: 130,
+        marginTop:10,
+    },
+    buttonText: {
+        fontSize: 20,
+        color: '#fff',
+        textAlign: 'center',
+
+    },
+});
 
 function Item({ title }) {
     return (
-        <View >
-            <Button
-                title={title}
-                onPress={() => {console.warn("title", title)}}
-            />
-        </View>
+        <TouchableOpacity onPress={() =>{console.warn("title", title)}}
+                          style={styles.button}>
+            <Text style={styles.buttonText}>{title}</Text>
+        </TouchableOpacity>
     );
 }
 
@@ -46,15 +60,20 @@ export class TasksScreen extends React.Component {
 
                 />
 
+                <View style={{flex: 1, alignItems: 'space-between', justifyContent: 'space-between', flexDirection: 'row'}}>
 
-                <Button
-                    title="Previous word"
-                    onPress={() => this.props.navigation.navigate('Home')}
-                />
-                <Button
-                    title="Next word"
-                    onPress={() => this.props.navigation.navigate('Home')}
-                />
+                    <TouchableOpacity onPress={() => this.props.navigation.push('Home')}
+                                      style={styles.button}>
+                        <Text style={styles.buttonText}>Previous word</Text>
+                    </TouchableOpacity>
+
+                    <TouchableOpacity onPress={() => this.props.navigation.push('Home')}
+                                      style={styles.button}>
+                        <Text style={styles.buttonText}>Next word</Text>
+                    </TouchableOpacity>
+                    
+                </View>
+          
             </View>
         );
     }

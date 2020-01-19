@@ -25,26 +25,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b4e6d69-99e2-418d-96d3-2af9e356619c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWebApi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWebApi/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWebApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWebApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/HelloWebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/HelloWebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/HelloWebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/HelloWebApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/HelloWebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/HelloWebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/HelloWebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/HelloWebApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MobileReactNative/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MobileReactNative/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileReactNative/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MobileReactNative/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileReactNative/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MobileReactNative/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileReactNative/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MobileReactNative/screen/HomeScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileReactNative/screen/HomeScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MobileReactNative/screen/WordsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileReactNative/screen/WordsScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MobileReactNative/screen/TasksScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileReactNative/screen/TasksScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MobileReactNative/screen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileReactNative/screen/index.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -80,11 +79,16 @@
         <option value="$PROJECT_DIR$/Controllers/PostController.cs" />
         <option value="$PROJECT_DIR$/../MobileReactNative/App.js" />
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/../MobileReactNative/screen/HomeScreen.tsx" />
         <option value="$PROJECT_DIR$/../MobileReactNative/screen/WordsScreen.tsx" />
         <option value="$PROJECT_DIR$/../MobileReactNative/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/../.gitignore" />
+        <option value="$PROJECT_DIR$/../MobileReactNative/screen/TasksScreen.tsx" />
+        <option value="$PROJECT_DIR$/../MobileReactNative/screen/LearnWords.js" />
+        <option value="$PROJECT_DIR$/../MobileReactNative/screen/HomeScreen.tsx" />
+        <option value="$PROJECT_DIR$/../MobileReactNative/screen/index.tsx" />
+        <option value="$PROJECT_DIR$/../MobileReactNative/App.tsx" />
+        <option value="$PROJECT_DIR$/../MobileReactNative/screen/LearnWordsScreen.tsx" />
       </list>
     </option>
   </component>
@@ -226,7 +230,7 @@
       <workItem from="1579290729627" duration="3817000" />
       <workItem from="1579354658481" duration="2794000" />
       <workItem from="1579431783253" duration="540000" />
-      <workItem from="1579432386754" duration="597000" />
+      <workItem from="1579432386754" duration="7817000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1572037182855</created>
@@ -263,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573666544286</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Some change">
+      <created>1579433044654</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579433044654</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +302,8 @@
     <MESSAGE value="add Models Post and Migration" />
     <MESSAGE value="add edited PostController" />
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="Some change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

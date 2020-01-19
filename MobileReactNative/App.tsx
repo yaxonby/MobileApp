@@ -4,7 +4,7 @@ import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import {Provider} from 'react-redux';
 import {store} from './store/store';
-import CounterScreen, {HomeScreen, ListWordsScreen, TasksScreen, WordsScreen} from "./screen";
+import CounterScreen, {HomeScreen, LearnWordsScreen, ListWordsScreen, TasksScreen, WordsScreen} from "./screen";
 
 
 
@@ -15,6 +15,7 @@ const AppNavigator = createStackNavigator(
         Counter: CounterScreen,
         Words: WordsScreen,
         ListWords: ListWordsScreen,
+        LearnWords: LearnWordsScreen,
     },
     {
         initialRouteName: 'Home',
