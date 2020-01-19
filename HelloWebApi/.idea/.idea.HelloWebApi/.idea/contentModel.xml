@@ -38,18 +38,41 @@
       </e>
       <e p="Startup.cs" t="Include" />
     </e>
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@babel\core" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@expo\vector-icons" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@react-native-community\masked-view" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@redux-saga\core" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@redux-saga\deferred" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@redux-saga\delay-p" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@redux-saga\is" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@redux-saga\symbols" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@redux-saga\types" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@types" t="IncludeRecursive">
+      <e p="istanbul-lib-coverage" t="IncludeRecursive" />
+      <e p="istanbul-lib-report" t="IncludeRecursive" />
+      <e p="jest" t="IncludeRecursive" />
       <e p="lodash" t="IncludeRecursive" />
+      <e p="prop-types" t="IncludeRecursive" />
+      <e p="react" t="IncludeRecursive" />
+      <e p="react-native" t="IncludeRecursive" />
+      <e p="react-test-renderer" t="IncludeRecursive" />
+      <e p="yargs-parser" t="IncludeRecursive" />
     </e>
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@unimodules\core" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\@unimodules\react-native-adapter" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\babel-eslint" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\babel-preset-expo" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\chalk" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\compare-versions" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\csstype" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\diff-sequences" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\eslint" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\eslint-plugin-react" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\eslint-plugin-react-native" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-asset" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-constants" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-error-recovery" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-file-system" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-font" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-keep-awake" t="IncludeRecursive" />
@@ -58,17 +81,34 @@
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-permissions" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-sqlite" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\expo-web-browser" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\jest-diff" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\jest-get-type" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\link" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\native-base" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\nullthrows" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-dom" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-gesture-handler" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-iphone-x-helper" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-keyboard-aware-scroll-view" t="IncludeRecursive" />
-    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-unimodules" t="IncludeRecursive" />
-    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-vector-icons" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-reanimated" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-safe-area-context" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-safe-area-view" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-screens" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-view-shot" t="IncludeRecursive" />
     <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-native-web" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-navigation" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-navigation-stack" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\react-redux" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\redux" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\redux-logger" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\redux-saga" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\rxjs" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\styled-components" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\symbol-observable" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\tslib" t="IncludeRecursive" />
+    <e p="C:\Projects\ReactNative\MobileApp\MobileReactNative\node_modules\unimodules-permissions-interface" t="IncludeRecursive" />
     <e p="C:\Users\yaxon\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\yaxon\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_HelloWebApi.1836326184.00" t="ExcludeRecursive" />
   </component>

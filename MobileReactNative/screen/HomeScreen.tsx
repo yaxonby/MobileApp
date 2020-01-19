@@ -5,27 +5,25 @@ export class HomeScreen extends React.Component {
     render() {
         return (
             <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-                <Text>Home Screen</Text>
+                
+                <View style={{flex: 1, alignItems: 'flex-start', justifyContent: 'center', flexDirection: 'column'}}>
+                    <Text>Home Screen</Text>
+                </View>
+                
+                <View style={{flex: 1, alignItems: 'center', justifyContent: 'space-between', flexDirection: 'column'}}>
+                    <Text onPress={() => this.props.navigation.push('ListWords')}
+                    >List Words </Text>
 
-                <Button
-                    title="Go to ListWords"
-                    onPress={() => this.props.navigation.push('ListWords')}
-                />
+                    <Text onPress={() => this.props.navigation.push('Words')}
+                    >Words</Text>
 
-                <Button
-                    title="Go to Words"
-                    onPress={() => this.props.navigation.push('Words')}
-                />
-               
-                <Button
-                    title="Go to Tasks"
-                    onPress={() => this.props.navigation.push('Tasks')}
-                />
-               
-                <Button
-                    title="Go to Counter"
-                    onPress={() => this.props.navigation.navigate('Counter')}
-                />
+                    <Text onPress={() => this.props.navigation.push('Tasks')}
+                    > Tasks</Text>
+
+                    <Text onPress={() => this.props.navigation.navigate('Counter')}
+                    > Counter</Text>
+                </View>
+
             </View>
         );
     }

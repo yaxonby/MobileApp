@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4e6d69-99e2-418d-96d3-2af9e356619c" name="Default Changelist" comment="" />
+    <list default="true" id="4b4e6d69-99e2-418d-96d3-2af9e356619c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWebApi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWebApi/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWebApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWebApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/HelloWebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/HelloWebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/HelloWebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/HelloWebApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.0/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/HelloWebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/HelloWebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/HelloWebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.0/HelloWebApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MobileReactNative/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MobileReactNative/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileReactNative/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MobileReactNative/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileReactNative/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MobileReactNative/screen/HomeScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileReactNative/screen/HomeScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MobileReactNative/screen/WordsScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileReactNative/screen/WordsScreen.tsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +79,12 @@
         <option value="$PROJECT_DIR$/Models/UsersContext.cs" />
         <option value="$PROJECT_DIR$/Controllers/PostController.cs" />
         <option value="$PROJECT_DIR$/../MobileReactNative/App.js" />
+        <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/../MobileReactNative/screen/HomeScreen.tsx" />
+        <option value="$PROJECT_DIR$/../MobileReactNative/screen/WordsScreen.tsx" />
+        <option value="$PROJECT_DIR$/../MobileReactNative/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/../.gitignore" />
       </list>
     </option>
   </component>
@@ -52,6 +96,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\JetBrains Rider 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -113,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.HelloWebApi: IIS Express">
+  <component name="RunManager" selected="npm.web">
     <configuration name="HelloWebApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/HelloWebApi.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
@@ -144,6 +189,21 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <configuration name="web" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../MobileReactNative/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="web" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.web" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -162,6 +222,11 @@
       <workItem from="1573285937066" duration="10637000" />
       <workItem from="1573378254076" duration="3968000" />
       <workItem from="1573666389370" duration="421000" />
+      <workItem from="1578857219487" duration="458000" />
+      <workItem from="1579290729627" duration="3817000" />
+      <workItem from="1579354658481" duration="2794000" />
+      <workItem from="1579431783253" duration="540000" />
+      <workItem from="1579432386754" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1572037182855</created>

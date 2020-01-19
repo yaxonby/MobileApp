@@ -1,10 +1,17 @@
 ﻿import React from 'react';
 import {StyleSheet, Button, Text, View} from 'react-native';
+import styled from 'styled-components/native'
+
+
+
+const StyledView = styled.View`
+background-color: gold;
+`;
 
 export class WordsScreen extends React.Component {
     render() {
         return (
-            <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <StyledView style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
                 <Text>Tasks Screen</Text>
 
 
@@ -12,7 +19,7 @@ export class WordsScreen extends React.Component {
                     title="Go to Home"
                     onPress={() => this.props.navigation.navigate('Home')}
                 />
-            </View>
+            </StyledView>
         );
     }
 }
